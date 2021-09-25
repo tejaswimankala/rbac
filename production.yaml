@@ -4,7 +4,7 @@ metadata:
   name: production-pod
   labels:
     name: production-pod
-  namespace: production
+  namespace: ns-rbac
 spec:
   containers:
   - name: production-pod

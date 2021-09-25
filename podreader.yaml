@@ -1,7 +1,7 @@
 kind: Role
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
-  namespace: production
+  namespace: ns-rbac
   name: pod-reader
 rules:
 - apiGroups: [""]

@@ -1,8 +1,0 @@
-title: GKE Authenticating Users
-description: Role with minimal permissions required to authenticate yourself to a GKE cluster.
-stage: ALPHA
-includedPermissions:
-- container.apiServices.get
-- container.apiServices.list
-- container.clusters.get
-- container.clusters.getCredentials
